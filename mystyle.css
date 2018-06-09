@@ -1,0 +1,53 @@
+
+body, html {
+    width:100%;
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url(image1.jpg);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    color: aliceblue;
+    text-transform:uppercase;
+    font-size: 20px;
+    display: flex;
+    font-family: Montserrat;
+    align-items: center;
+   
+    justify-content: center;
+    
+    
+   
+} 
+
+.btn-xs{
+    font-weight: 700;
+    display: flex;
+    margin-top: 200px;
+    font-family: Montserrat;
+    align-items:center;
+    justify-content:center;
+    background-color: orange;
+    padding-top: 1rem;
+    border-color: #FF9200;
+    
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
+
